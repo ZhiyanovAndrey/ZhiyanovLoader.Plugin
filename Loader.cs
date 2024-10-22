@@ -1,18 +1,15 @@
-﻿using PhoneApp.Domain.DTO;
+﻿using Newtonsoft.Json;
+using PhoneApp.Domain.Attributes;
+using PhoneApp.Domain.DTO;
 using PhoneApp.Domain.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace ZhiyanovLoader.Plugin
 {
     public class Loader
     {
+        [Author(Name = "Ivan Petrov")]
         public class LoadUsers : IPluggable
         {
             const string url = "https://dummyjson.com/users";
@@ -38,19 +35,13 @@ namespace ZhiyanovLoader.Plugin
                         else if (item.LastName == null) dto.Name = (item.FirstName);
                         else dto.Name = (item.LastName);
 
-
-
                         if (item.Phone != null) dto.AddPhone(item.Phone);
 
 
                         list.Add(dto);
 
                     }
-
-
                 }
-
-
 
                 return list;
 
