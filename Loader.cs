@@ -9,7 +9,7 @@ namespace ZhiyanovLoader.Plugin
 {
     public class Loader
     {
-        [Author(Name = "Ivan Petrov")]
+        [Author(Name = "Andrey Zhiyanov")]
         public class LoadUsers : IPluggable
         {
             const string url = "https://dummyjson.com/users";
