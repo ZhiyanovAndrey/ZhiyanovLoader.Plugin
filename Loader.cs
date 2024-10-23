@@ -5,7 +5,7 @@ using PhoneApp.Domain.Interfaces;
 using System.Collections.Generic;
 using System.Net.Http;
 
-namespace ZhiyanovLoader.Plugin
+namespace EmployeesLoader.Plugin
 {
     public class Loader
     {

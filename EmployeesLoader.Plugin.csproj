@@ -7,8 +7,8 @@
     <ProjectGuid>{DE5152C8-DC92-4329-B9FE-C941E0ED72B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZhiyanovLoader.Plugin</RootNamespace>
-    <AssemblyName>ZhiyanovLoader.Plugin</AssemblyName>
+    <RootNamespace>EmployeesLoader.Plugin</RootNamespace>
+    <AssemblyName>EmployeesLoader.Plugin</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

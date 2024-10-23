@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhiyanovLoader.Plugin", "ZhiyanovLoader.Plugin.csproj", "{DE5152C8-DC92-4329-B9FE-C941E0ED72B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesLoader.Plugin", "EmployeesLoader.Plugin.csproj", "{DE5152C8-DC92-4329-B9FE-C941E0ED72B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApp", "..\PhonePluginsApplication\PhoneApp\PhoneApp.csproj", "{E752971F-D21B-48C3-BEDC-D87694ED4CBF}"
 EndProject
